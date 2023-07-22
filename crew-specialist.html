@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="offline/css/bootstrap.css">
+    <Link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="offline/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> space tourism website </title>
+</head>
+<body onload="crewBody()"></body>
+
+    <div class="nav-bar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+        <ul>
+            <li onclick="home()"><a href="index.html">Home</a></li>
+            <li onclick="destination()"><a href="destination.html">Destination</a></li>
+            <li onclick="crew()"><a href="crewpilot.html">Crew</a></li>
+            <li onclick="technology()"><a href="technology-spaceport.html">Technology</a></li>
+        </ul>
+    </div>
+    <!-- <div class="crew-btn">
+        <i class="fa fa-bars"></i>
+    </div> -->
+    <div class="dropdown">
+        <ul>
+            <li onclick="crew()"><a href="crewpilot.html">pilot</a></li>
+            <li onclick="crew()"><a href="crew-commander.html">comander</a></li>
+            <li onclick="crew()"><a href="crew-engeneer.html">engineer</a></li>
+            <li onclick="crew()"><a href="crew-specialist.html">specialist</a></li>
+        </ul>
+    </div>
+    <div class="crew-meet">
+        <h1>meet your specialist</h1>
+    </div>
+    <div class="pilot-main d-flex">
+        <div class="specialist">
+            <img src="crew/image-mark-shuttleworth.png" alt="pilot">
+        </div>
+        <div class="pilot-text">
+            <h2>mark shuttleworth</h2>
+            <blockquote>mark richard shuttleworth is the founder and ceo of canonical, the company behind the linux-based ubuntu operating system. shuttleworth became the first south african to travel to space as a space tourist. </blockquote>
+        </div>
+    </div>
+    
+    <script src="offline/jquery-3.7.0.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>

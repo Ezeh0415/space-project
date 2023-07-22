@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="offline/css/bootstrap.css">
+    <Link rel="stylesheet" href="style/style.css">
+    <title> space tourism website </title>
+</head>
+<body onload="destination()">
+    
+    <div class="nav-bar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+        <ul>
+            <li onclick="home()"><a href="index.html">Home</a></li>
+            <li onclick="destination()"><a href="destination.html">Destination</a></li>
+            <li onclick="crew()"><a href="crewpilot.html">Crew</a></li>
+            <li onclick="technology()"><a href="technology-spaceport.html">Technology</a></li>
+        </ul>
+    </div>
+
+    <div class="dis d-flex">
+        <div class="img-sec">
+            <img id="main-img" src="destination/image-europa.webp" alt="">
+        </div>
+        <div class="quote">
+            <blockquote id="blockq">europa : an enigmatic moon suspendend in the cosmic dance,a distance world that becons with icy allure and tantalizing enigamas undernearth its frozen crust a hidden ocean lies in hushed wispers, concealing the potentals for life and the captivating mysteries of the universe.</blockquote>
+            <p id="p1">avg. distance</p>
+            <p id="p2">628 mil. km</p>
+
+            <p id="p3">est. travle time</p>
+            <p id="p4">3 years</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="jpg-pic d-flex">
+            <div class="img1">
+                <img onclick="europa()" src="destination/image-europa.webp" alt="Europia">
+            </div>
+
+            <div class="img2">
+                <img onclick="mars()" src="destination/image-mars.webp" alt="Mars">
+            </div>
+
+            <div class="img3">
+                <img onclick="moon()" src="destination/image-moon.webp" alt="Moon">
+            </div>
+
+            <div class="img4">
+                <img onclick="titan()" src="destination/image-titan.webp" alt="Titian">
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="offline/jquery-3.7.0.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>

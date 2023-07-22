@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="offline/css/bootstrap.css">
+    <Link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="offline/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> space tourism website </title>
+</head>
+<body onload="crewBody()">
+
+    <div class="nav-bar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+        <ul>
+            <li onclick="home()"><a href="index.html">Home</a></li>
+            <li onclick="destination()"><a href="destination.html">Destination</a></li>
+            <li onclick="crew()"><a href="crewpilot.html">Crew</a></li>
+            <li onclick="technology()"><a href="technology-spaceport.html">Technology</a></li>
+        </ul>
+    </div>
+    <!-- <div class="crew-btn">
+        <i class="fa fa-bars"></i>
+    </div> -->
+    <div class="dropdown">
+        <ul>
+            <li onclick="crew()"><a href="crewpilot.html">pilot</a></li>
+            <li onclick="crew()"><a href="crew-commander.html">comander</a></li>
+            <li onclick="crew()"><a href="crew-engeneer.html">engineer</a></li>
+            <li onclick="crew()"><a href="crew-specialist.html">specialist</a></li>
+        </ul>
+    </div>
+    <div class="crew-meet">
+        <h1>meet your pilot</h1>
+    </div>
+    <div class="pilot-main d-flex">
+        <div class="pilot-img">
+            <img src="crew/image-victor-glover.webp" alt="pilot">
+        </div>
+        <div class="pilot-text">
+            <h2>victor glover</h2>
+            <blockquote>pilot on the first operational flight of spaceX crew dragon to the international space station. glover is a comander in the u.s navy where he pilots an f/a-18. he was a crew member of expedition 64, and served as a station systems flight engineer</blockquote>
+        </div>
+    </div>
+    
+    <script src="offline/jquery-3.7.0.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
